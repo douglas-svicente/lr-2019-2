@@ -1,11 +1,12 @@
-package cobra is 
-	type INT_VECTOR IS ARRAY (60 downto 0) OF INTEGER RANGE 0 TO 100;
-end package;
+--package cobra is 
+--	type INT_VECTOR IS ARRAY (60 downto 0) OF INTEGER RANGE 0 TO 100;
+--end package;
 
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 USE IEEE.numeric_std.ALL;
+USE work.cobra.all;
 
 -- USE IEEE.STD_LOGIC_ARITH.ALL;
 -- USE IEEE.math_real.ALL;
@@ -104,7 +105,7 @@ BEGIN
 			IF (COBRA_MORTA_X(m) > 0 AND COBRA_MORTA_Y(m) > 0) THEN
 				qnt_atual_comida <= qnt_atual_comida + 2;
 				COMIDA(qnt_atual_comida) <= COBRA_MORTA_X(m);
-				COMIDA(qnt_atual_comida + 1) <= COBRA_MORTA_Y(m)
+				COMIDA(qnt_atual_comida + 1) <= COBRA_MORTA_Y(m);
 			END IF;
 		END LOOP;
 
