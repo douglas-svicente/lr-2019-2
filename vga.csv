@@ -1,0 +1,28 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+# File: C:\Users\User\Documents\2º semestre\Lógica Reconfigurável\Lab\Projeto\vga.csv
+# Generated on: Tue Dec 03 19:45:16 2019
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
+B,Output,PIN_K21,6,B6_N1,PIN_A10,,,,,
+CLOCK_50,Input,PIN_G21,6,B6_N1,PIN_G2,,,,,
+G,Output,PIN_J17,6,B6_N0,PIN_A9,,,,,
+H_SYNC,Output,PIN_L21,6,B6_N1,PIN_L6,,,,,
+R,Output,PIN_H17,6,B6_N0,PIN_D10,,,,,
+Reset,Input,PIN_H2,1,B1_N1,PIN_G1,,,,,
+V_SYNC,Output,PIN_L22,6,B6_N1,PIN_B10,,,,,
